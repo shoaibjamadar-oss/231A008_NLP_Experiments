@@ -36,12 +36,13 @@ These steps reduce dimensionality and noise, improving downstream model performa
 - Sample tweet successfully cleaned and tokenized, with stopwords/punctuation removed.
 - Final dataset contains a cleaned `Tweets` column ready for feature extraction/modeling.
 
-(Insert screenshots below)
 ![Bar Chart](output_screenshots/bar_chart.png)
+![before and after](output_screenshots/before_and_after.png)
 ![Cleaned Output](output_screenshots/cleaned_output.png)
 
+
 ## Conclusion
-Successfully implemented an NLP text preprocessing pipeline for tweet sentiment data, covering noise removal, tokenization, and stopword filtering — a foundational step before applying sentiment classification models.
+Successfully implemented an NLP text preprocessing pipeline for tweet sentiment data, covering noise removal, tokenization, and stopword filtering a foundational step before applying sentiment classification models.
 
 ## References
 - NLTK Documentation: https://www.nltk.org/

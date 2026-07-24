@@ -37,7 +37,7 @@ These steps reduce dimensionality and noise, improving downstream model performa
 - Final dataset contains a cleaned `Tweets` column ready for feature extraction/modeling.
 
 ![Bar Chart](output_screenshots/bar_chart.png)
-![Tweet vs Tweet_processed](output_screenshots/TweetvsTweet_processed.png)
+![Tweet vs Tweet_processed](output_screenshots/Tweet_vs_Tweet_processed.png)
 ![Cleaned Output](output_screenshots/cleaned_output.png)
 
 

@@ -2,7 +2,6 @@
 
 An NLP-based text classification system that detects whether an e-commerce product review is **genuine (OR)** or **fake / computer-generated (CG)**, built using TF-IDF feature extraction and a Naive Bayes classifier.
 
-> NLP Course Mini Project — CSDOL7011
 
 ---
 
@@ -84,9 +83,8 @@ Load Dataset → Preprocess Text → TF-IDF Vectorize → Train Naive Bayes → 
 ## Project Structure
 
 ```
-├── fake_review_detection.ipynb   # Main notebook (Colab-ready)
+├── fake_review_detection.ipynb 
 ├── README.md
-└── requirements.txt
 ```
 
 ## Setup & Usage
@@ -108,7 +106,7 @@ Load Dataset → Preprocess Text → TF-IDF Vectorize → Train Naive Bayes → 
    path = kagglehub.dataset_download("mexwell/fake-reviews-dataset")
    ```
 
-4. Run the notebook — `fake_review_detection.ipynb` (or open in Google Colab)
+4. Run the notebook — `fake_review_detection.ipynb` 
 
 5. Try the live demo cell to classify any review text of your choice:
    ```python
@@ -121,7 +119,3 @@ Load Dataset → Preprocess Text → TF-IDF Vectorize → Train Naive Bayes → 
 - Well-written fake reviews can closely mimic the style of genuine ones.
 - Trained on a single dataset/product domain — generalization to other domains is untested.
 - Uses review text only; does not incorporate reviewer behavior, images, or metadata signals.
-
-## Author
-
-Shoaib — BE, CSE (AI & ML)
